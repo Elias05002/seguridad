@@ -1,6 +1,7 @@
-var bandera = FALSE;
+//var bandera = FALSE;
 
 function validar(){
+    var user = document.getElementById("user");
     alert($("#user").val());
     var pass = document.getElementById("password").value;
     alert(pass)
@@ -21,5 +22,5 @@ function validar(){
 
 function correctCaptcha(){
     console.log("Captcha resuelto correctamente");
-    bandera = TRUE;
+    bandera = true;
 }
