@@ -14,12 +14,12 @@ function validar(){
     } 
 }
 
-//function validar(){
-   // alert($("#user").val());
-    //alert($("#password").val());
-//$("#user").val("cadena");
+function validar(){
+   alert($("#user").val());
+    alert($("#password").val());
+$("#user").val("cadena");
 
-//}
+}
 
 
 
