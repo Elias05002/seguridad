@@ -17,5 +17,5 @@ function validar(){
 
 function correctCaptcha(){
     console.log("Captcha resuelto correctamente")
-    bandera = trum;
+    bandera = true;
 }
