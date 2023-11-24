@@ -1,15 +1,15 @@
 var bandera = false;
 
 function validar(){
-    var bandera = document.getElementById("user");
+   // var bandera = document.getElementById("user");
     //alert($("#user").val());
-    var pass = document.getElementById("password").value;
+  //  var pass = document.getElementById("password").value;
 
    // alert(pass)
     
     if (bandera){
         console.log("Validacion completa");
-        bandera = true;
+      //  bandera = true;
         //redireccionar a la pagina correspondiente
     } 
 }
