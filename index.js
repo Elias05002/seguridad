@@ -1,19 +1,15 @@
-
 var bandera = false;
-
 function validar(){
-   // alert($("#user").val());
+    alert($("#user").val());
+$("#user").val("cadena");
 
-    if (bandera){
-        console.log("validación completa");
-    }
-    
+if (bandera){
+    console.log("validacion completa")
+}
 
-   // var pass = document.getElementById("password");
-   // alert(user.value)
 }
 
 function correctCaptcha(){
     console.log("Captcha resuelto correctamente")
-    bandera=true;
+    bandera = true;
 }
