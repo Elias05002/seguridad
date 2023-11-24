@@ -1,4 +1,4 @@
-var bandera = false;
+var bandera = FALSE;
 
 function validar(){
     alert($("#user").val());
@@ -21,5 +21,5 @@ function validar(){
 
 function correctCaptcha(){
     console.log("Captcha resuelto correctamente");
-    bandera = true;
+    bandera = TRUE;
 }
