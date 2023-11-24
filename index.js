@@ -1,3 +1,4 @@
+
 var bandera = false;
 
 function validar(){
@@ -5,7 +6,6 @@ function validar(){
 
     if (bandera){
         console.log("validación completa");
-        //Redireccione a la pagina correspondiente
     }
     
 
@@ -15,5 +15,5 @@ function validar(){
 
 function correctCaptcha(){
     console.log("Captcha resuelto correctamente")
-    bandera = true;
+    bandera=true;
 }
