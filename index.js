@@ -1,8 +1,8 @@
 var bandera = false;
 
 function validar(){
-    alert($("#user").val());
-$("#user").val("cadena");
+ alert($("#user").val());
+$("#user").val();
 
 if (bandera){
     console.log("validacion completa")
