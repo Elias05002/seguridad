@@ -1,4 +1,5 @@
 var bandera = false;
+
 function validar(){
     alert($("#user").val());
 $("#user").val("cadena");
